@@ -1,0 +1,84 @@
+# Datasets and competition data
+/dataset/
+/data/
+**/audio_data/
+**/private_test*
+**/public_test_phones.csv
+**/*with_gt*
+
+# Documents, slides, papers, diagrams, and generated images
+/document/
+
+# Papers
+paper/
+papers/
+
+# Images
+*.[pP][nN][gG]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[gG][iI][fF]
+*.[wW][eE][bB][pP]
+*.[sS][vV][gG]
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials.json
+secrets.*
+*.pem
+*.key
+
+# Model weights and training artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+checkpoints/
+artifacts/
+runs/
+wandb/
+
+# Predictions, submissions, and archives
+output/
+outputs/
+submission/
+submissions/
+predictions/
+results/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# LaTeX compilation output
+*.aux
+*.log
+*.out
+*.pdf
+*.synctex*
+*.toc
+*.fls
+*.fdb_latexmk
+*.dpth
+*.md5
+*.auxlock
+
+# LaTeX foc folder and images
+foc/
+*_files/
+
+# macOS
+.DS_Store
